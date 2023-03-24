@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  background-image: url(backgrond2.jpg);
+  font-family: sans-serif;
+  background-color: #bcc2bcd7;
+  
+}
+
+.calculator {
+  background-color: transparent;
+  margin-left: 470px;
+  margin-top: 170px;
+  display: inline-block;
+  border: 2px solid #f7f6f66b;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 2px 2px 5px #353434;
+}
+
+.display {
+  background-color:transparent;
+  padding: 5px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+button {
+  font-weight: 800;
+  color: #f2f2f2;
+  background-color: #1e11ce00;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+.operator {
+  color: ;
+  background-color: #1e11ce00;
+}
+
+#decimal {
+
+  grid-column: 2 / 3;
+}
+
+#clear {
+  grid-column: 3 / 4;
+}
+
+#calculate {
+  position: absolute;
+  width: 175px;
+  margin-top: 155px;
+  margin-left: 185px;
+  background-color: transparent;
+  color: #fffcfc;
+  grid-row: 4 / 5;
+  grid-column: 4 / 5;
+}
+#calculate:hover {
+  background-color: #ccc;
+}
+
+
+#result {
+  color: #f2f2f2;
+  background-color: transparent;
+  width: 100%;
+  font-size: 30px;
+  text-align: right;
+  border: none;
+}
+@media  (max-width:820px ){
+
+  .calculator {
+    border: 2px solid #f7f6f66b;
+    padding: 200px;
+    position: absolute;
+    margin: 150px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px transparent;
+  }
+  button {
+    font-weight: 900;
+    color: #f2f2f2;
+    background-color: #1e11ce00;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  #calculate{
+    bottom: 280px;
+    margin-left: 230px;
+  }
+}
+@media  (max-width:412px ){
+  .calculator{
+    margin: 150px 10px;
+    padding: 80px;
+    border: 2px solid #f7f6f66b;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #353434;
+  }
+  #calculate{
+    bottom: 165px;
+    margin-left: 100px;
+  }
+  button {
+    font-weight: 900;
+    color: #f2f2f2;
+    background-color: #1e11ce00;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+
+}
