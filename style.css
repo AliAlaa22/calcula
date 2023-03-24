@@ -86,6 +86,8 @@ button:hover {
 
   .calculator {
     border: 2px solid #f7f6f66b;
+    right: 20px;  
+    height: 310px;
     padding: 200px;
     position: absolute;
     margin: 150px 10px;
@@ -97,27 +99,30 @@ button:hover {
     color: #f2f2f2;
     background-color: #1e11ce00;
     border: none;
+    margin: 5px;
     border-radius: 5px;
     padding: 10px;
     font-size: 40px;
     cursor: pointer;
   }
   #calculate{
-    bottom: 280px;
+    bottom: 95px;
     margin-left: 230px;
   }
 }
 @media  (max-width:412px ){
   .calculator{
-    margin: 150px 10px;
-    padding: 80px;
+    right: 190px;  
+    height: 250px;
+    padding: 5px;
     border: 2px solid #f7f6f66b;
   border-radius: 5px;
   box-shadow: 1px 1px 1px #353434;
   }
   #calculate{
-    bottom: 165px;
-    margin-left: 100px;
+    bottom: 65px;
+    margin-left: 143px;
+    width: 50px;
   }
   button {
     font-weight: 900;
@@ -126,7 +131,9 @@ button:hover {
     border: none;
     border-radius: 5px;
     padding: 10px;
-    font-size: 40px;
+    margin: 5px;
+    height: 20px;
+    font-size: 20px;
     cursor: pointer;
   }
 
