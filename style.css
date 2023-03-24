@@ -112,7 +112,7 @@ button:hover {
 }
 @media  (max-width:412px ){
   .calculator{
-    right: 190px;  
+    right: 10px;  
     height: 250px;
     padding: 5px;
     border: 2px solid #f7f6f66b;
@@ -120,8 +120,8 @@ button:hover {
   box-shadow: 1px 1px 1px #353434;
   }
   #calculate{
-    bottom: 65px;
-    margin-left: 143px;
+    bottom: 60px;
+    margin-left: 290px;
     width: 50px;
   }
   button {
